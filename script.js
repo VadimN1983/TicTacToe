@@ -43,11 +43,6 @@ const TicTacToe = {
             win[i] = [i, i];
         }
         this.winMoves[this.winMoves.length] = win;
-
-        for(let i = 0; i < this.size; i++) {
-            win[i] = [(this.size-1)-i, i];
-        }
-        this.winMoves[this.winMoves.length] = win;
     },
 
     /**
